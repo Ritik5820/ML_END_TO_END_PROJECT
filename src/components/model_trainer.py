@@ -40,6 +40,8 @@ class ModelTrainer:
                 test_array[:, -1],
             )
 
+            print(xtrain)
+
             model = {
                 "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
