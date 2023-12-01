@@ -41,4 +41,4 @@ def predict_datapoint():
 
 
 if __name__ == "__main__":
-    app.run(host="localhost", debug=True)
+    app.run(host="localhost")
